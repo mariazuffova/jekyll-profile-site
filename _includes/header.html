@@ -1,0 +1,34 @@
+<header class="text-white bg-sand-dark">
+    <div class="container mx-auto px-2 py-4 flex justify-between items-center relative"
+        x-data="{ isOpen: true, isDesktop: true }"
+        x-init="window.innerWidth >= 768 ? (isOpen = isDesktop = true) : (isOpen = isDesktop = false)">
+        <div class="flex justify-start items-center">
+            <span class="mr-3 h-4 w-4 bg-blue-700"></span>
+            <a href="/" class="py-2 text-gray-700 hover:text-gray-800">{{ site.title | upcase }}</a>
+        </div>
+
+        <div>
+            <nav x-show="isOpen" :class="{ 'w-full fixed inset-y-0 inset-x-0 flex justify-end':!isDesktop }"
+                x-on:resize.window="window.innerWidth >= 768 ? (isOpen = isDesktop = true) : (isOpen = isDesktop = false)">
+                <ul class="list-none my-0 pl-0 flex items-center" :class="{ 'bg-gray-800 opacity-90 h-full w-full flex-col justify-start':!isDesktop }">
+                    <div class="block sm:hidden w-full text-right p-4 mb-8">
+                        <i class="fa fa-2x cursor-pointer fa-times" @click="isOpen = false"></i>
+                    </div>
+                    {%- for link in site.data.navigation.main -%}
+                      {%- if link.url contains '://' -%}
+                        {%- assign url = link.url -%}
+                      {%- else -%}
+                        {%- assign url = link.url | relative_url -%}
+                    {%- endif -%}
+                    <li class="px-4 py-2 m-0 mb-2 md:m-0 rounded" :class="isDesktop ? 'hover:bg-sand-darkest' : 'hover:bg-gray-500'">
+                        <a href="{{ url }}" class="text-white hover:text-white sm:text-gray-700 sm:hover:text-gray-800" {% if link.description %}title="{{ link.description }}" {% endif %}>{{
+                            link.title | escape }}</a>
+                    </li>
+                    {%- endfor -%}
+                </ul>
+            </nav>
+        </div>
+
+        <i class="block text-gray-700 md:hidden cursor-pointer fa fa-lg fa-bars" @click="isOpen = true"></i>
+    </div>
+</header>

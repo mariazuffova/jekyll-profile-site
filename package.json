@@ -1,0 +1,45 @@
+{
+  "name": "jekyll-webpack-starter",
+  "version": "0.0.1",
+  "description": "\"Simple jekyll webpack starter\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run develop",
+    "develop": "cross-env NODE_ENV=development bundle exec jekyll clean && run-p develop:{jekyll,webpack}",
+    "develop:jekyll": "sleep 5 & bundle exec jekyll serve --watch",
+    "develop:webpack": "webpack --watch",
+    "build": "cross-env NODE_ENV=production run-s build:webpack build:jekyll",
+    "build:jekyll": "bundle exec jekyll build",
+    "build:webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-loader": "^4.1.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "mini-css-extract-plugin": "^1.3.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "alpinejs": "^2.8.0",
+    "turbolinks": "^5.2.0",
+    "valform": "^2.1.1"
+  }
+}

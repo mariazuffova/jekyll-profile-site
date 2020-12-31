@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="container mx-auto px-2 py-4" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="mb-4 lg:mb-8">
+        <h1 class="mb-0" itemprop="name headline">{{ page.title | escape }}</h1>
+        <p class="text-gray-600 text-sm">
+            {%- if page.author -%}
+            by {% for author in page.author %}
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+            {% endfor %}
+            {%- endif -%}
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                • {{ page.date | date: date_format }}
+            </time>
+        </p>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

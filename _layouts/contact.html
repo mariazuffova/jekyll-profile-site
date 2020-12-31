@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="container mx-auto px-2 py-4">
+    <header class="py-2 w-full md:w-4/5 mx-auto">
+        <h1 class="text-2xl text-blue-600 border-b border-blue-600 pb-1 text-center">{{ page.title | escape }}</h1>
+    </header>
+
+    <section class="mx-auto w-full md:w-4/5 lg:w-3/5 p-4">
+        <form action="#" id="contact_form">
+            <div class="mb-6">
+                <div class="form_input">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" x-model="name.value" data-val-rules="required|min_length[3]">
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <div class="form_input">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" x-model="email.value" data-val-rules="required|valid_email">
+                </div>
+            </div>
+
+            <div class="">
+                <div class="form_input">
+                    <label for="message">Your message</label>
+                    <textarea id="message" rows="5" name="message" placeholder="Enter your message" x-model="message.value" data-val-rules="required|min_length[3]"></textarea>
+                </div>
+            </div>
+
+            <div class="mt-6 text-right">
+                <button type="submit" class="bg-green-400 text-white border-green-400 shadow hover:text-white hover:bg-green-500 px-8 py-3 uppercase">Send</button>
+            </div>
+        </form>
+    </section>
+</div>
+
+<script>
+    window.valForm.init({
+        formId: "contact_form",
+        validationErrorClass: "error",
+        validationValidClass: "valid",
+        appendAfter: "form_input"
+    });
+</script>

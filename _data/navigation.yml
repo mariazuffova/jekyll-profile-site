@@ -1,0 +1,17 @@
+# main links
+main:
+  - title: "About"
+    url: /about
+    description: "More about us"
+  - title: "Research"
+    url: /research
+    description: "Research"
+  - title: "Public engagement"
+    url: /engagement
+    description: "Public engagement"
+  - title: "Teaching"
+    url: /teaching
+    description: "Teaching"
+  - title: "Contact"
+    url: /contact
+    description: "Contact us"

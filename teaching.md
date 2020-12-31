@@ -1,0 +1,26 @@
+---
+layout: page
+title: Teaching
+permalink: /teaching
+---
+
+During my PhD studies, I worked as a teaching assistant and delivered tutorials for the following courses on research methods and introduction to political science.
+
+## Undergraduate level
+
+- **L2305: Research Methods for Political Scientists** (40h)
+  <br>fall 2016 (focus on quantitative methods) and fall 2017 (focus on research design, ethics and qualitative methods)
+  <br>University of Strathclyde, course leaders: Dr Brandenburg and Dr Shephard<br>
+
+- **L2103: Politics 1b** (12h)
+  <br>spring 2016
+  <br>University of Strathclyde, course leader: Dr Gabriela Borz<br>
+
+- **L2102: Politics 1a** (12h)
+  <br>fall 2015
+  <br>University of Strathclyde, course leader: Dr Gabriela Borz<br>
+
+
+## Teaching approach
+
+I am committed to creating an inclusive and open learning environment where students are encouraged to engage and express their views. I am aware that students might come from different backgrounds and their preparedness for university and the level of support they need might vary considerably. I work with them with this understanding in mind.

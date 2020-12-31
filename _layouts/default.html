@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{%- include head.html -%}
+
+<body>
+
+    <div class="min-h-screen flex flex-col" aria-label="Content">
+        {%- include header.html -%}
+
+        <main class="flex-grow flex flex-col">
+            {{ content }}
+        </main>
+    </div>
+
+    {%- include footer.html -%}
+
+</body>
+
+</html>
