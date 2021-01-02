@@ -1,9 +1,47 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: "_webpack/img"
-public_folder: "/assets/img"
+#media_folder: "_webpack/img"
+media_folder: "/assets/img"
 collections:
+  - name: "home-page"
+    label: "Home page"
+    files:
+      - label: "Home content"
+        name: "home-content"
+        file: "_data/home.yml"
+        fields:
+          - { label: "Greeting", name: "greeting", widget: "string" }
+          - { label: "Teaser", name: "teaser", widget: "text" }
+          - label: "Buttons"
+            name: "buttons"
+            widget: "object"
+            fields:
+              - label: "Primary"
+                name: "primary"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "Url", name: "url", widget: "string" }
+              - label: "Secondary"
+                name: "secondary"
+                widget: "object"
+                fields:
+                  - { label: "Text", name: "text", widget: "string" }
+                  - { label: "Url", name: "url", widget: "string" }
+  - name: "pages"
+    label: "Pages"
+    folder: ""
+    create: true
+    slug: "{{ title }}"
+    filter:
+      field: layout
+      value: page
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "permalink", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "papers"
     label: "Papers"
     folder: "_papers"
@@ -13,3 +51,49 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "navigation"
+    label: "Navigation"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Main"
+            name: "main"
+            widget: "object"
+            fields:
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Url", name: "url", widget: "string" }
+                  - { label: "Description", name: "description", widget: "string" }
+  - name: "website-settings"
+    label: "Website settings"
+    files:
+      - label: "Website settings"
+        name: "site"
+        file: "_config.yml"
+        fields:
+          - label: "Personal settings"
+            name: "author"
+            widget: "object"
+            fields:
+              - { label: "First name", name: "first_name", "widget": "string" }
+              - { label: "Surname", name: "surname", "widget": "string" }
+              - { label: "Job title", name: "title", "widget": "string" }
+              - { label: "Current location", name: "location", "widget": "string" }
+              - { label: "Profile picture", name: "image", "widget": "image" }
+          - label: "Social"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "LinkedIn", name: "linkedin", "widget": "string" }
+              - { label: "Twitter", name: "twitter", "widget": "string" }
+              - { label: "Research Gate", name: "researchgate", "widget": "string" }
+              - { label: "Facebook", name: "facebook", "widget": "string" }
+          - { label: "Website title", name: "title", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Description", name: "description", widget: "string" }
+          - { label: "Site URL", name: "url", widget: "string" }

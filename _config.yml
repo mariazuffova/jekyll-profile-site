@@ -1,18 +1,18 @@
 title: Mária Žuffová
 email: maria.zuffova@eui.eu
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal profile website
+description: "Personal profile website"
 url: https://mariazuffova.com # the base hostname & protocol for your site, e.g. http://example.com
 social:
-  facebook:
   linkedin: https://www.linkedin.com/in/maria-zuffova-75a48610/
   twitter: https://twitter.com/mariazuffova
   researchgate: https://www.researchgate.net/profile/Maria_Zuffova2
+  facebook:
 author:
   first_name: Mária
   surname: Žuffová
   title: Reasearch associate
   location: Fiesole, Italy
+  image: /assets/img/zuffova_profile.png
 collections:
   papers:
     sort_by: date
@@ -34,6 +34,7 @@ exclude:
   - webpack.config.js
   - package.json
   - package-lock.json
+  - README.md
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
