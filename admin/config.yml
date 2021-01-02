@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "_webpack/img"
+public_folder: "/assets/img"
+collections:
+  - name: "papers"
+    label: "Papers"
+    folder: "_papers"
+    create: true
+    slug: "{{ title }}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
