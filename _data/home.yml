@@ -1,9 +1,13 @@
 greeting: Hello
+teaser: I am a research associate (postdoc) at the Robert Schuman Centre for
+  Advanced Studies at the European University Institute (EUI). I work at the
+  Centre for Media Pluralism and Media Freedom on the Media pluralism monitor
+  project with a focus on freedom of expression, access to information,
+  whistleblower’s protection and standards of the journalistic profession.
 buttons:
   primary:
     text: Research
-    url: /reserach
+    url: /research
   secondary:
     text: Contact me
     url: /contact
-teaser: I am a research associate (postdoc) at the Robert Schuman Centre for Advanced Studies at the European University Institute (EUI). I work at the Centre for Media Pluralism and Media Freedom on the Media pluralism monitor project with a focus on freedom of expression, access to information, whistleblower’s protection and standards of the journalistic profession.
