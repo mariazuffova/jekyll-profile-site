@@ -4,11 +4,11 @@ layout: default
 
 <div class="container mx-auto px-2 py-4">
     <header class="py-2 w-full md:w-4/5 mx-auto">
-        <h1 class="text-2xl text-blue-600 border-b border-blue-600 pb-1 text-center">{{ page.title | escape }}</h1>
+        <h1 class="text-2xl text-gray-700 border-b border-gray-700 pb-1 text-center">{{ page.title | escape }}</h1>
     </header>
 
     <section class="mx-auto w-full md:w-4/5 lg:w-3/5 p-4">
-        <form action="#" id="contact_form">
+        <form method="POST" name="contact_form" data-netlify="true" id="contact_form">
             <div class="mb-6">
                 <div class="form_input">
                     <label for="name">Your name</label>

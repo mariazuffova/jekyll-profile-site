@@ -105,10 +105,10 @@ blockquote {
 /* links */
 
 a {
-  @apply text-blue-300;
+  @apply text-blue-400;
 
   &:hover {
-    @apply text-blue-400 ;
+    @apply text-blue-500 ;
     outline: 0;
   }
 }
