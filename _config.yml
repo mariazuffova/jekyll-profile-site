@@ -1,33 +1,21 @@
-title: Mária Žuffová
-email: maria.zuffova@eui.eu
-description: "Personal profile website"
-url: https://mariazuffova.com # the base hostname & protocol for your site, e.g. http://example.com
+plugins:
+  - jekyll-feed
+author:
+  first_name: Mária
+  surname: Žuffová
+  title: Reasearcher
+  location: Fiesole, Italy
+  image: /assets/img/zuffova_profile.png
 social:
   linkedin: https://www.linkedin.com/in/maria-zuffova-75a48610/
   twitter: https://twitter.com/mariazuffova
   researchgate: https://www.researchgate.net/profile/Maria_Zuffova2
-  facebook:
-author:
-  first_name: Mária
-  surname: Žuffová
-  title: Reasearch associate
-  location: Fiesole, Italy
-  image: /assets/img/zuffova_profile.png
+  facebook: " "
+url: https://mariazuffova.com
 collections:
   papers:
     sort_by: date
-# Build settings
-# theme: minima
-plugins:
-  - jekyll-feed
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+title: Mária Žuffová
 exclude:
   - tailwind.config.js
   - postcss.config.js
@@ -35,13 +23,5 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+email: maria.zuffova@eui.eu
+description: Personal profile website
