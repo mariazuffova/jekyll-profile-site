@@ -14,11 +14,11 @@ During my PhD studies, I worked as a teaching assistant and delivered tutorials 
 
 * **L2305: Research Methods for Political Scientists** (40h in 2016 and 2017)
   <br>fall 2016 (focus on quantitative methods) and fall 2017 (focus on research design, ethics and qualitative methods)
-  <br>University of Strathclyde, course leaders: Dr Heinz Brandenburg and Dr Mark Shephard<br>
+  <br>University of Strathclyde, course coordinators: Dr Heinz Brandenburg and Dr Mark Shephard<br>
 * **L2103: Politics 1b** (12h in 2016)
-  <br>University of Strathclyde, course leader: Dr Gabriela Borz<br>
+  <br>University of Strathclyde, course coordinator: Dr Gabriela Borz<br>
 * **L2102: Politics 1a** (12h in 2015)
-  <br>University of Strathclyde, course leader: Dr Gabriela Borz<br>
+  <br>University of Strathclyde, course coordinator: Dr Gabriela Borz<br>
 
 ## Teaching approach
 
