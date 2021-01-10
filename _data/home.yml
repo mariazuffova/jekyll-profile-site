@@ -9,5 +9,5 @@ buttons:
     text: Google Scholar
     url: https://scholar.google.com/citations?user=V7aVzF0AAAAJ&hl=en
   secondary:
-    text: Contact me
-    url: /contact
+    text: " "
+    url: " "
