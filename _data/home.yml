@@ -6,8 +6,8 @@ teaser: I am a research associate (postdoc) at the Robert Schuman Centre for
   whistleblower’s protection and standards of the journalistic profession.
 buttons:
   primary:
-    text: " "
-    url: " "
+    text: Research
+    url: "/research "
   secondary:
-    text: " "
-    url: " "
+    text: "Contact me "
+    url: "/contact "
