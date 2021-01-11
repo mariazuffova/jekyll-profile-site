@@ -6,46 +6,6 @@ layout: default
         <h1 class="text-2xl text-gray-700 border-b border-gray-700 pb-1 text-center">{{ page.title | escape }}</h1>
     </header>
 
-    {% if page.title == "About" %}
-
-    <div class="container mx-auto px-2 py-4">
-        <section class="p-4 pb-0 border border-gray-200 shadow-lg w-full md:w-4/5 mx-auto mb-8">
-            <main class="flex justify-center items-center flex-col sm:flex-row px-4 sm:px-16 py-10 bg-gray-200">
-                <img class="w-48 h-48 rounded-full mb-6 sm:mb-0" src={{ site.author.image }} alt="Profile image">
-                <div class="ml-0 sm:ml-10 flex flex-col justify-center items-center sm:items-start">
-                    <h2 class="uppercase font-thin mb-0">{{ site.author.first_name | escape }}</h2>
-                    <h2 class="uppercase font-thin mb-0">{{ site.author.surname | escape }}</h2>
-                    <div class="h-0.5 w-1/5 bg-pink-700 my-3"></div>
-                    <h4 class="uppercase font-thin mb-0 text-center">{{ site.author.title | escape }}</h4>
-                    <p class="pb-0 text-xs text-gray-600"><i class="fa fa-map-marker-alt mr-1"></i>{{ site.author.location | escape }}</p>
-                </div>
-            </main>
-
-            <footer class="flex justify-center items-center py-5">
-                {% if site.social.facebook %}
-                <a href="{{ site.social.facebook }}" class="mx-3 text-gray-700 hover:text-gray-800"><i class="flex-grow fab fa-lg fa-fw fa-facebook-f"></i></a>
-                {% endif %}
-
-                {% if site.social.researchgate %}
-                <a href="{{ site.social.researchgate }}" class="mx-3 text-gray-700 hover:text-gray-800"><i class="flex-grow fab fa-lg fa-fw fa-researchgate"></i></a>
-                {% endif %}
-
-                {% if site.social.linkedin %}
-                <a href="{{ site.social.linkedin }}" class="mx-3 text-gray-700 hover:text-gray-800"><i class="flex-grow fab fa-lg fa-fw fa-linkedin-in"></i></a>
-                {% endif %}
-
-                {% if site.social.twitter %}
-                <a href="{{ site.social.twitter }}" class="mx-3 text-gray-700 hover:text-gray-800"><i class="flex-grow fab fa-lg fa-fw fa-twitter"></i></a>
-                {% endif %}
-
-                {% if site.email %}
-                <a href="mailto:{{ site.email }}" class="mx-3 text-gray-700 hover:text-gray-800"><i class="flex-grow fa fa-lg fa-fw fa-envelope"></i></a>
-                {% endif %}
-            </footer>
-        </section>
-
-        {% endif %}
-
     <div class="mx-auto w-full md:w-4/5 lg:w-3/5 p-4">
         {{ content }}
     </div>

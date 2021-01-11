@@ -12,7 +12,7 @@ collections:
         file: "_data/home.yml"
         fields:
           - { label: "Greeting", name: "greeting", widget: "string" }
-          - { label: "Teaser", name: "teaser", widget: "text" }
+          - { label: "Teaser", name: "teaser", widget: "markdown" }
           - label: "Buttons"
             name: "buttons"
             widget: "object"
@@ -92,7 +92,7 @@ collections:
               - { label: "LinkedIn", name: "linkedin", "widget": "string" }
               - { label: "Twitter", name: "twitter", "widget": "string" }
               - { label: "Research Gate", name: "researchgate", "widget": "string" }
-              - { label: "Facebook", name: "facebook", "widget": "string" }
+              - { label: "Google scholar", name: "scholar", "widget": "string" }
           - { label: "Website title", name: "title", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
