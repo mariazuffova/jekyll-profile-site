@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Index
+title: Home
 permalink: /
 ---
 DON'T CHANGE ME

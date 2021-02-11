@@ -89,10 +89,10 @@ collections:
             name: "social"
             widget: "object"
             fields:
-              - { label: "LinkedIn", name: "linkedin", "widget": "string" }
-              - { label: "Twitter", name: "twitter", "widget": "string" }
-              - { label: "Research Gate", name: "researchgate", "widget": "string" }
-              - { label: "Google scholar", name: "scholar", "widget": "string" }
+              - { label: "LinkedIn", name: "linkedin", "widget": "string", required: false }
+              - { label: "Twitter", name: "twitter", "widget": "string", required: false }
+              - { label: "Research Gate", name: "researchgate", "widget": "string", required: false }
+              - { label: "Google scholar", name: "scholar", "widget": "string", required: false }
           - { label: "Website title", name: "title", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Description", name: "description", widget: "string" }
