@@ -7,7 +7,7 @@ author:
   location: European University Institute
   image: /assets/img/zuffova_profile.png
 social:
-  linkedin: https://www.linkedin.com/in/maria-zuffova-75a48610/
+  linkedin: ""
   twitter: https://twitter.com/mariazuffova
   researchgate: https://www.researchgate.net/profile/Maria_Zuffova2
   scholar: https://scholar.google.com/citations?user=V7aVzF0AAAAJ&hl=sk&oi=ao
@@ -24,4 +24,4 @@ exclude:
   - package-lock.json
   - README.md
 email: maria.zuffova@eui.eu
-description: Personal profile website
+description: Academic website
