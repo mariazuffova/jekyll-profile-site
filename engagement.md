@@ -3,16 +3,18 @@ layout: page
 title: Public engagement
 permalink: /engagement
 ---
-Apart from academia, I have ten years of working experience in  impact assessment, in particular, in the area of transparency policies. My previous clients include Open Knowledge Foundation and Open Government Partnership. I also worked as a coordinator of civic technology projects in my home country Slovakia.
+
 
 
 ## Selected policy and technical reports
 
-Žuffová, Mária. 2020. ['Slovakia Implementation report 2017-2019'](https://www.opengovpartnership.org/wp-content/uploads/2020/04/Slovakia_Implementation_Report_2017-2019_EN.pdf). *Open Government Partnership*.
+Žuffová, Mária and Carlini, Roberta. 2021. [Safety of journalists in Europe: Threats and best practices to tackle them](https://cadmus.eui.eu/handle/1814/70637). *Centre for Media Pluralism and Freedom, EUI*
 
-Žuffová, Mária. 2019. ['Slovakia Design report 2017-2019'](https://www.opengovpartnership.org/wp-content/uploads/2019/06/Slovakia_Design-Report_2017-2019_EN.pdf). *Open Government Partnership*.
+Žuffová, Mária. 2020. ['Slovakia Implementation Report 2017-2019'](https://www.opengovpartnership.org/wp-content/uploads/2020/04/Slovakia_Implementation_Report_2017-2019_EN.pdf). *Open Government Partnership*.
 
-Žuffová, Mária. 2017. ['Governing by rankings: How the Global Open Data Index helps advance the open data agenda'](https://research.okfn.org/governing-by-rankings/). *Open Knowledge Foundation*.
+Žuffová, Mária. 2019. ['Slovakia Design Report 2017-2019'](https://www.opengovpartnership.org/wp-content/uploads/2019/06/Slovakia_Design-Report_2017-2019_EN.pdf). *Open Government Partnership*.
+
+Žuffová, Mária. 2017. ['Governing by Rankings: How the Global Open Data Index Helps Advance the Open Data Agenda'](https://research.okfn.org/governing-by-rankings/). *Open Knowledge Foundation*.
 
 Žuffová, Mária. 2017. ['Slovakia Special Accountability Report 2014–2015'](https://www.opengovpartnership.org/wp-content/uploads/2017/05/Slovakia_Special-Accountability-Report_for-public-comment.pdf). *Open Government Partnership*.
 
