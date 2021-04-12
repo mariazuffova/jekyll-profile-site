@@ -12,5 +12,5 @@ buttons:
     text: Research
     url: "/research "
   secondary:
-    text: "Contact me "
+    text: Contact
     url: "/contact "
