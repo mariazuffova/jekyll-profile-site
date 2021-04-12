@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
 
 <body>
 
-    <div class="min-h-screen flex flex-col" aria-label="Content">
+    <div class="min-h-screen flex flex-col" aria-label="Content" style="font-family: 'Cardo', sans-serif">
         {%- include header.html -%}
 
         <main class="flex-grow flex flex-col">

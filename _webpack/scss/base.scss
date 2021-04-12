@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  @apply font-sans #{$font-color} leading-6;
+  @apply #{$font-color} leading-6;
 }
 
 h1,

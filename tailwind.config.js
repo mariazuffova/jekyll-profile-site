@@ -22,7 +22,7 @@ module.exports = {
                 'sand-darkest': '#ccad8e'
             },
             fontFamily: {
-                'sans': ["Poppins", "Arial", "sans-serif"],
+                'sans': ["Cardo", "Arial", "sans-serif"],
                 'mono': ['Source Code Pro', 'monospace']
             },
             cursor: {

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run develop",
     "develop": "cross-env NODE_ENV=development bundle exec jekyll clean && run-p develop:{jekyll,webpack}",
-    "develop:jekyll": "sleep 5 & bundle exec jekyll serve --watch",
+    "develop:jekyll": "sleep 5 & bundle exec jekyll serve --port 3001 --watch",
     "develop:webpack": "webpack --watch",
     "build": "cross-env NODE_ENV=production run-s build:webpack build:jekyll",
     "build:jekyll": "bundle exec jekyll build",
