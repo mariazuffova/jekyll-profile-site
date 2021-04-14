@@ -102,5 +102,4 @@ collections:
             name: "font"
             widget: "object"
             fields:
-              - { label: "Font link", name: "font_link", "widget": "string" }
               - { label: "Font name", name: "font_name", "widget": "string" }
