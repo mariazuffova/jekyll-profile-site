@@ -2,6 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching
+banner_img: /assets/img/apple.jpg
 ---
 During my PhD studies, I worked as a teaching assistant for the following courses on research methods and introduction to political science.
 
