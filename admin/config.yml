@@ -99,8 +99,8 @@ collections:
           - { label: "Description", name: "description", widget: "string" }
           - { label: "Site URL", name: "url", widget: "string" }
           - label: "Font"
-              name: "font"
-              widget: "object"
-              fields:
-                - { label: "Font link", name: "font_link", "widget": "string" }
-                - { label: "Font name", name: "font_name", "widget": "string" }
+            name: "font"
+            widget: "object"
+            fields:
+              - { label: "Font link", name: "font_link", "widget": "string" }
+              - { label: "Font name", name: "font_name", "widget": "string" }
