@@ -6,6 +6,9 @@ author:
   title: Researcher
   location: European University Institute
   image: /assets/img/zuffova_profile.png
+font:
+  font_link: <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+  font_name: Cardo
 social:
   linkedin: ""
   twitter: https://twitter.com/mariazuffova
