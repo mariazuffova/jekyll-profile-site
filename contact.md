@@ -2,8 +2,8 @@
 layout: contact
 title: Contact
 permalink: /contact
-banner_img: /assets/img/pen.jpg
+banner_img: /assets/img/country.png
 ---
-DON'T CHANGE ME
+DON'T CHANGE THE CONTENT HERE
 
 
