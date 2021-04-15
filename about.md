@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-banner_img: /assets/img/leaves.jpg
+banner_img: /assets/img/img-3282.jpg
 ---
 
 I am a research associate (postdoc) at [the Robert Schuman Centre for Advanced Studies](https://www.eui.eu/DepartmentsAndCentres/RobertSchumanCentre) at the European University Institute (EUI). I work at the Centre for Media Pluralism and Media Freedom on [the Media pluralism monitor](https://cmpf.eui.eu/media-pluralism-monitor/mpm-2020/) project with a focus on freedom of expression, access to information, whistleblower's protection and standards of the journalistic profession.
