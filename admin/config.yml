@@ -34,9 +34,9 @@ collections:
     folder: "/"
     create: true
     slug: "{{ title }}"
-    filter:
-      field: layout
-      value: ["page", "contact", "research"]
+#    filter:
+#      field: layout
+#      value: ["page", "contact", "research"]
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
