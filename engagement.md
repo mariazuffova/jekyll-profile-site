@@ -2,7 +2,7 @@
 layout: page
 title: Public engagement
 permalink: /engagement
-banner_img: /assets/img/report.jpg
+banner_img: /assets/img/img-3282.jpg
 ---
 
 
