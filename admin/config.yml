@@ -36,7 +36,7 @@ collections:
     slug: "{{ title }}"
     filter:
       field: layout
-      value: page || contact || research
+      value: ["page", "contact", "research"]
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Title", name: "title", widget: "string" }
