@@ -11,17 +11,16 @@ social:
   twitter: https://twitter.com/mariazuffova
   researchgate: https://www.researchgate.net/profile/Maria_Zuffova2
   scholar: https://scholar.google.com/citations?user=V7aVzF0AAAAJ&hl=sk&oi=ao
-title: Mária Žuffová
-email: maria.zuffova@eui.eu
 url: https://mariazuffova.com
 font:
   font_link: <link
     href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap"
     rel="stylesheet">
-  font_name: Cardo
+  font_name: Crimson Text
 collections:
   papers:
     sort_by: date
+title: Mária Žuffová
 exclude:
   - tailwind.config.js
   - postcss.config.js
@@ -29,4 +28,5 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+email: maria.zuffova@eui.eu
 description: Academic website
