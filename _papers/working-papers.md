@@ -1,5 +1,5 @@
 ---
-title: Working papers
+title: Work in progress
 date: 2021-01-01T23:00:00.000Z
 ---
 
