@@ -1,12 +1,15 @@
 greeting: Welcome!
-teaser: I am a research associate (postdoc) at the [Robert Schuman Centre for
-  Advanced
+teaser: "I am a postdoc at the [Robert Schuman Centre for Advanced
   Studies](https://www.eui.eu/DepartmentsAndCentres/RobertSchumanCentre) at the
-  European University Institute (EUI). I work at the Centre for Media Pluralism
-  and Media Freedom on the [Media pluralism monitor
-  project](https://cmpf.eui.eu/media-pluralism-monitor/mpm-2020/) with a focus
-  on freedom of expression, access to information, whistleblower’s protection
-  and standards of the journalistic profession.
+  [European University Institute](https://www.eui.eu). I work at the [Centre for
+  Media Pluralism and Media Freedom](www.cmpf.eui.eu) on the [Media Pluralism
+  Monitor project](https://cmpf.eui.eu/media-pluralism-monitor/mpm-2020/). I
+  oversee the area of Fundamental Protection, where my main research interests
+  are transparency reforms (freedom of information laws and whistleblowers'
+  protection laws) and the safety of journalists.
+
+
+  \ "
 buttons:
   primary:
     text: Research
