@@ -12,4 +12,6 @@ banner_img: /assets/img/country.png
 
 ## Blog posts
 
+Better data and responsible political leaders are urgently needed to tackle violence against women journalists. [CMPF Blog](https://cmpf.eui.eu/better-data-and-responsible-politicians-needed-to-tackle-violence-against-women-journalists/), 25 November 2021
+
 The experience of journalists with the FOI process is often marked by delays, unresponsiveness, or refusals on unverifiable grounds. [LSE British Politics and Policy Blog](https://blogs.lse.ac.uk/politicsandpolicy/foia-journalists/), 25 May 2021
