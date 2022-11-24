@@ -2,7 +2,7 @@
 title: Peer-reviewed journal articles
 date: 2020-12-31T23:00:00.000Z
 ---
-1. Žuffová, Mária. 2022. ['Gender Stereotypes in Print and Online Media Coverage of Slovak Presidential Candidates in 2009 and 2019﻿'](https://www.cambridge.org/core/journals/european-political-science-review/article/gender-stereotypes-in-print-and-online-media-coverage-of-slovak-presidential-candidates-in-2009-and-2019/049B1B5A9E896DD51198410CF7434217#article). *European Political Science Review.* doi: 10.1017/S1755773922000522. Recipient of the **ECPR Political Communication Best Paper Award 2021**
+1. Žuffová, Mária. 2022. ['Gender Stereotypes in Print and Online Media Coverage of Slovak Presidential Candidates in 2009 and 2019﻿'](https://www.cambridge.org/core/journals/european-political-science-review/article/gender-stereotypes-in-print-and-online-media-coverage-of-slovak-presidential-candidates-in-2009-and-2019/049B1B5A9E896DD51198410CF7434217#article). *European Political Science Review.* doi: 10.1017/S1755773922000522. (Open Access) [[link](/assets/downloads/2021-Zuffova-IJPP.pdf)]. Recipient of the **ECPR Political Communication Best Paper Award 2021**
 2. 
 
 
