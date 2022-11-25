@@ -4,6 +4,8 @@ title: About
 permalink: /about
 banner_img: /assets/img/monte-sumbra-small.jpg
 ---
+l﻿alalal
+
 I am a political scientist by training. My research interests sit at the intersection of comparative politics and political communication and explore questions around media freedom and transparency policies increasing access to information and data. I am also very much interested in gender (stereotypes) and politics. In my future projects, I would like to connect these two interests and study gender and transparency reforms, in particular, how the public perceives them when adopted by male and female leaders.
 
 Currently, I work as a postdoc at the [European University Institute](https://www.eui.eu). I am based at the Centre for Media Pluralism and Media Freedom, and my core project is the [Media Pluralism Monitor](https://cmpf.eui.eu/media-pluralism-monitor/mpm-2020/), where I am responsible for the Fundamental Protection part. I investigate how the conditions necessary for the free and independent conduct of journalistic work are maintained across Europe. My main focus is on access to information policies. However, I am also interested in the safety of journalists in the offline and online environment, in particular, in gender-based attacks.
