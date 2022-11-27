@@ -1,3 +1,7 @@
+---
+title: Places
+permalink: /places
+---
 ## Node.js & Ruby
 - Node: 10 and later
 - Ruby: 2.4 and later
