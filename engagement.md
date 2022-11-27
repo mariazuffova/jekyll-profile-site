@@ -4,9 +4,7 @@ title: Public engagement
 permalink: /engagement
 banner_img: /assets/img/country.png
 ---
-## Policy engagement
-
-l﻿alalal[](https://committees.parliament.uk/writtenevidence/39649/pdf/)
+## Policy engagement[](https://committees.parliament.uk/writtenevidence/39649/pdf/)
 
 [Written evidence](https://committees.parliament.uk/writtenevidence/39649/pdf/) to the UK Parliamentary Public Administration and Constitutional Affairs Committee on The Cabinet Office Freedom of Information Clearing House, 26 October 2021
 
