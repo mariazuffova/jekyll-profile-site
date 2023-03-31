@@ -2,7 +2,7 @@
 layout: page
 title: Public engagement
 permalink: /engagement
-banner_img: /assets/img/country.png
+banner_img: ""
 ---
 ## Policy engagement[](https://committees.parliament.uk/writtenevidence/39649/pdf/)
 
