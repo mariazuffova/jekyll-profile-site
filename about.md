@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about
-banner_img: ""
+banner_img: /assets/img/tatranska_krajina-min.jpg
 ---
 I am a political scientist by training. My research interests sit at the intersection of comparative politics and political communication and explore questions around media freedom and transparency policies increasing access to information and data. I am also very much interested in gender (stereotypes) and politics. In my future projects, I would like to connect these two interests and study gender and transparency reforms, in particular, how the public perceives them when adopted by male and female leaders.
 
