@@ -17,8 +17,8 @@ teaser: >-
   Before pursuing my PhD, I was a practitioner in the civil society sector. I helped build digital tools to improve public service delivery and facilitate interactions between political representatives, bureaucrats, and the general public. As a believer in bridging academia and the policy world, I continue to engage in discussions with policymakers and public institutions. Lately, I have provided evidence to the UK Parliamentary Public Administration and Constitutional Affairs Committee on The Cabinet Office Freedom of Information Clearing House.
 buttons:
   primary:
-    text: Research
-    url: "/research "
+    text: Publications
+    url: /publications
   secondary:
     text: Contact
     url: "/contact "
