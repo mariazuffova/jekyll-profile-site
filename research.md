@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Research
+title: Publications
 permalink: /research
 banner_img: /assets/img/placuce-zeny.jpeg
 ---
