@@ -18,7 +18,7 @@ teaser: >-
 buttons:
   primary:
     text: Publications
-    url: /publications
+    url: /research
   secondary:
     text: Contact
     url: "/contact "
