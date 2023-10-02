@@ -14,6 +14,10 @@ P﻿eer-review of the [Slovak Whistleblower Protection Office' s analysis](https
 
 ## Blog posts
 
+I governi devono considerare le leggi sull'accesso agli atti come opportunità, non come minacce. [La Repubblica](https://firenze.repubblica.it/cronaca/2023/09/27/news/firenze_iue_i_governi_devono_considerare_le_leggi_sullaccesso_agli_atti_come_opportunita_non_come_minacce-416021122/),  28 September 2023 
+
+Access to public-sector information remains challenging in many European countries. [CMPF Blog](https://cmpf.eui.eu/access-to-public-sector-information-remains-challenging-in-many-european-countries/), 28 September 2023
+
 Better data and responsible political leaders are urgently needed to tackle violence against women journalists. [CMPF Blog](https://cmpf.eui.eu/better-data-and-responsible-politicians-needed-to-tackle-violence-against-women-journalists/), 25 November 2021
 
 The experience of journalists with the FOI process is often marked by delays, unresponsiveness, or refusals on unverifiable grounds. [LSE British Politics and Policy Blog](https://blogs.lse.ac.uk/politicsandpolicy/foia-journalists/), 25 May 2021
